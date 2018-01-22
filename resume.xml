@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume SYSTEM "resume.dtd">
+
+<resume>
+
+	<resume_person>
+		<name_categorize>
+			<name>황은정</name>
+			<korean>黃銀正</korean>
+			<eng>Hwang Eunjung</eng>
+		</name_categorize>
+
+		<address>
+			<wcity>경기도</wcity>
+			<bcity>의정부시</bcity>
+			<scity>의정부3동</scity>
+			<street_name>경의로</street_name>
+			<street_no>132번길 85</street_no>
+			<post_no>480-847</post_no>
+		</address>
+
+		<family>
+			<fa_name>황천돌</fa_name>
+			<fa_old>57</fa_old>
+			<fa_career>회사원</fa_career>
+
+			<ma_name>장준희</ma_name>
+			<ma_old>48</ma_old>
+			<ma_career>가정주부</ma_career>
+
+			<bro_name>황재윤</bro_name>
+			<bro_old>21</bro_old>
+			<bro_career>대학생</bro_career>
+		</family>
+	</resume_person>
+
+	<school_list>
+		<school id="1">
+			<enter>2014</enter>
+			<enter_month>03</enter_month>
+			<enter_day>02</enter_day>
+			<graduate>2018</graduate>
+			<graduate_month>02</graduate_month>
+			<graduate_day>16</graduate_day>
+			<where>성신여자대학교</where>
+			<major>IT</major>
+			<major_specific>컴퓨터소프트웨어</major_specific>
+			<grade>4.2/4.5</grade>
+		</school>
+
+		<school id="2">
+			<enter>2009</enter>
+			<enter_month>03</enter_month>
+			<enter_day>02</enter_day>
+			<graduate>2012</graduate>
+			<graduate_month>02</graduate_month>
+			<graduate_day>16</graduate_day>
+			<where>의정부여자고등학교</where>
+			<major>인문계</major>
+			<major_specific>문과</major_specific>
+			<grade>3등급</grade>
+		</school>
+	</school_list>
+
+	<resume_good>
+		<english_list>
+			<english id="1">
+				<ewhat>TOEIC</ewhat>
+				<egrade>925</egrade>
+				<e_year>2016</e_year>
+				<e_month>08</e_month>
+				<e_day>20</e_day>
+				<ewhere>ETS</ewhere>
+			</english>
+
+			<english id="2">
+				<ewhat>TOEIC Speaking</ewhat>
+				<egrade>Lv.7(170점)</egrade>
+				<e_year>2016</e_year>
+				<e_month>10</e_month>
+				<e_day>15</e_day>
+				<ewhere>ETS</ewhere>
+			</english>
+		</english_list>
+
+		<license_list>
+			<license id="1">
+				<lwhat>MOS MASTER</lwhat>
+				<lgrade>없음</lgrade>
+				<l_year>2017</l_year>
+				<l_month>08</l_month>
+				<l_day>20</l_day>
+				<lwhere>Microsoft</lwhere>
+			</license>
+
+			<license id="2">
+				<lwhat>컴퓨터활용능력</lwhat>
+				<lgrade>1급</lgrade>
+				<l_year>2016</l_year>
+				<l_month>07</l_month>
+				<l_day>30</l_day>
+				<lwhere>대한상공회의소</lwhere>
+			</license>
+		</license_list>
+
+		<education_list>
+			<education id="1">
+				<start_year>2016</start_year>
+				<start_month>09</start_month>
+				<finish_year>2016</finish_year>
+				<finish_month>12</finish_month>
+				<edname>JAVA</edname>
+				<edwhere>삼성</edwhere>
+				<edwhat>자바 활용</edwhat>
+			</education>
+
+			<education id="2">
+				<start_year>2017</start_year>
+				<start_month>03</start_month>
+				<finish_year>2017</finish_year>
+				<finish_month>06</finish_month>
+				<edname>C++</edname>
+				<edwhere>삼성</edwhere>
+				<edwhat>C++프로그래밍 심화</edwhat>
+			</education>
+		</education_list>
+
+		<prize_list>
+			<prize id="1">
+				<pyear>2016</pyear>
+				<pmonth>09</pmonth>
+				<pday>01</pday>
+				<pname>성신여자대학교</pname>
+				<pwhat>교내 프로그래밍 경진대회 우승</pwhat>
+			</prize>
+
+			<prize id="2">
+				<pyear>2017</pyear>
+				<pmonth>03</pmonth>
+				<pday>02</pday>
+				<pname>국제 해킹 협회</pname>
+				<pwhat>국제 해킹 경진대회 우승</pwhat>
+			</prize>
+		</prize_list>
+	</resume_good>
+
+	<resume_career>
+		<career_list>
+			<career id="1">
+				<cstart_year>2016</cstart_year>
+				<cstart_month>06</cstart_month>
+				<cfinish_year>2016</cfinish_year>
+				<cfinish_month>08</cfinish_month>
+				<cwhere>KT</cwhere>
+				<cposition>인턴</cposition>
+				<cwhat>전산 업무</cwhat>
+			</career>
+
+			<career id="2">
+				<cstart_year>2016</cstart_year>
+				<cstart_month>09</cstart_month>
+				<cfinish_year>2016</cfinish_year>
+				<cfinish_month>12</cfinish_month>
+				<cwhere>네이버</cwhere>
+				<cposition>인턴</cposition>
+				<cwhat>전산 업무</cwhat>
+			</career>
+		</career_list>
+
+		<etc_list>
+			<etc id="1">
+				<etcwhat>대외활동</etcwhat>
+				<etcwhere>KT</etcwhere>
+				<etctask>프로젝트 기획</etctask>
+			</etc>
+
+			<etc id="2">
+				<etcwhat>대외활동</etcwhat>
+				<etcwhere>SK</etcwhere>
+				<etctask>봉사활동</etctask>
+			</etc>
+		</etc_list>
+	</resume_career>
+
+	<introduce_list>
+		<why>지원 동기 : 저는 IT학부를 졸업했습니다. 따라서 웹 개발을 주로 하는 이 회사와 저의 전공이 부합하다고 생각하여
+			지원하게 되었습니다.
+		</why>
+		<introduce>자기소개 : 안녕하세요. 저는 성신여자대학교 IT학부를 졸업한 황은정이라고 합니다. 처음 이 과에 입학할
+			때는 문과 출신으로서 적응하는데 많은 어려움이 있었지만 남들보다 더 열심히 해서 어려움을 극복해 좋은 성적으로 졸업을 하게
+			되었습니다.
+		</introduce>
+		<plan>입사 후 포부 : 이 회사에 입사하게 되면 항상 초심을 잃지 않고 남들보다 열심히 하겠습니다.</plan>
+	</introduce_list>
+
+</resume>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT resume_certificate (resume_person, school_list, resume_good?, resume_career?, introduce_list)>
+  
+<!ELEMENT resume_person (name_categorize, address, family)>
+<!ELEMENT school_list (school+)>
+<!ELEMENT resume_good (english_list?, license_list?, education_list?, prize_list?)>
+<!ELEMENT resume_career (career_list?, etc_list?)>
+<!ELEMENT introduce_list  (why, introduce, plan)>
+
+
+<!ELEMENT name_categorize (name, korean, eng)>
+<!ELEMENT address (wcity, bcity, scity, street_name, street_no, building_name?, room_no?, post_no)>
+<!ELEMENT family ((fa_name, fa_old, fa_career)?, (ma_name, ma_old, ma_career)?, (bro_name, bro_old, bro_career)*, (sis_name, sis_old, sis_career)*)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT korean (#PCDATA)>
+<!ELEMENT eng (#PCDATA)>
+
+<!ELEMENT wcity (#PCDATA)>
+<!ELEMENT bcity (#PCDATA)>
+<!ELEMENT scity (#PCDATA)>
+<!ELEMENT street_name (#PCDATA)>
+<!ELEMENT street_no (#PCDATA)>
+<!ELEMENT building_name (#PCDATA)>
+<!ELEMENT room_no (#PCDATA)>
+<!ELEMENT post_no (#PCDATA)>
+
+<!ELEMENT fa_name (#PCDATA)>
+<!ELEMENT fa_old (#PCDATA)>
+<!ELEMENT fa_career (#PCDATA)>
+<!ELEMENT ma_name (#PCDATA)>
+<!ELEMENT ma_old (#PCDATA)>
+<!ELEMENT ma_career (#PCDATA)>
+<!ELEMENT bro_name (#PCDATA)>
+<!ELEMENT bro_old (#PCDATA)>
+<!ELEMENT bro_career (#PCDATA)>
+<!ELEMENT sis_name (#PCDATA)>
+<!ELEMENT sis_old (#PCDATA)>
+<!ELEMENT sis_career (#PCDATA)>
+
+
+<!ELEMENT school (enter, enter_month, enter_day, graduate, graduate_month, graduate_day, where, major, major_specific, grade)>
+<!ATTLIST school id ID #REQUIRED>
+
+<!ELEMENT enter (#PCDATA)>
+<!ELEMENT enter_month (#PCDATA)>
+<!ELEMENT enter_day (#PCDATA)>
+<!ELEMENT graduate (#PCDATA)>
+<!ELEMENT graduate_month (#PCDATA)>
+<!ELEMENT graduate_day (#PCDATA)>
+<!ELEMENT where (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT major_specific (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>		
+	
+			
+<!ELEMENT english_list (english*)>
+<!ELEMENT english (ewhat, egrade, e_year, e_month, e_day, ewhere)>
+<!ATTLIST english id ID #REQUIRED>
+
+<!ELEMENT ewhat (#PCDATA)>
+<!ELEMENT egrade (#PCDATA)>
+<!ELEMENT e_year (#PCDATA)>
+<!ELEMENT e_month (#PCDATA)>
+<!ELEMENT e_day (#PCDATA)>
+<!ELEMENT ewhere (#PCDATA)>
+
+
+<!ELEMENT license_list (license*)>
+<!ELEMENT license (lwhat, lgrade, l_year, l_month, l_day, lwhere)>
+<!ATTLIST license id ID #REQUIRED>
+
+<!ELEMENT lwhat (#PCDATA)>
+<!ELEMENT lgrade (#PCDATA)>
+<!ELEMENT l_year (#PCDATA)>
+<!ELEMENT l_month (#PCDATA)>
+<!ELEMENT l_day (#PCDATA)>
+<!ELEMENT lwhere (#PCDATA)>
+
+
+<!ELEMENT education_list (education*)>
+<!ELEMENT education (start_year, start_month, finish_year, finish_month, edname, edwhere, edwhat)>
+<!ATTLIST education id ID #REQUIRED>
+
+<!ELEMENT start_year (#PCDATA)>
+<!ELEMENT start_month (#PCDATA)>
+<!ELEMENT finish_year (#PCDATA)>
+<!ELEMENT finish_month (#PCDATA)>
+<!ELEMENT edname (#PCDATA)>
+<!ELEMENT edwhere (#PCDATA)>
+<!ELEMENT edwhat (#PCDATA)>
+
+
+<!ELEMENT prize_list (prize*)>
+<!ELEMENT prize (pyear, pmonth, pday, pname, pwhat)>
+<!ATTLIST prize id ID #REQUIRED>
+
+<!ELEMENT pyear (#PCDATA)>
+<!ELEMENT pmonth (#PCDATA)>
+<!ELEMENT pday (#PCDATA)>
+<!ELEMENT pname (#PCDATA)>
+<!ELEMENT pwhat (#PCDATA)>
+
+
+<!ELEMENT career_list (career*)>
+<!ELEMENT career (cstart_year, cstart_month, cfinish_year, cfinish_month, cwhere, cposition, cwhat)>
+<!ATTLIST career id ID #REQUIRED>
+
+<!ELEMENT cstart_year (#PCDATA)>
+<!ELEMENT cstart_month (#PCDATA)>
+<!ELEMENT cfinish_year (#PCDATA)>
+<!ELEMENT cfinish_month (#PCDATA)>
+<!ELEMENT cwhere (#PCDATA)>
+<!ELEMENT cposition (#PCDATA)>
+<!ELEMENT cwhat (#PCDATA)>
+
+
+<!ELEMENT etc_list (etc*)>
+<!ELEMENT etc (etcwhat, etcwhere, etctask)>
+<!ATTLIST etc id ID #REQUIRED>
+
+<!ELEMENT etcwhat (#PCDATA)>
+<!ELEMENT etcwhere (#PCDATA)>
+<!ELEMENT etctask (#PCDATA)>
+
+<!ELEMENT why (#PCDATA)>
+<!ELEMENT introduce (#PCDATA)>
+<!ELEMENT plan (#PCDATA)>
